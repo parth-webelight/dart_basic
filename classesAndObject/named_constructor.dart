@@ -8,7 +8,7 @@ class User {
 }
 
 void main() {
-  User u1 = User(name: "Parth", age: 22);
+  User u1 = User(name: "Parth", age: 22 );
 
   User u2 = User.fromJson({'name': 'Rahul', 'age': 25});
 
